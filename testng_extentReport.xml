@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExtentReports Suite" parallel="tests" thread-count="2">	
+	<test name="extent report test " enabled="true">
+		<classes>
+			<class name="testngclass.LoginTestWithScreenShot" />
+			<class name="extentreports.NewTest" />	
+			<class name="extentreports.Test3" />						
+		</classes>		
+	</test>
+</suite>

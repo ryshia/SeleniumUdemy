@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" parallel="tests" thread-count="2">
+	<!--test name="app test 1" preserve-order="true" enabled="true">
+		<classes>					
+			<class name="testngclass.TestNGClass2" />
+			<class name="testngclass.BeforeAndAfterAnnotation" />			
+		</classes>		
+	</test-->	
+	<test name="app test 2" enabled="true">
+		<classes>
+			<class name="testngclass.TestReporterTest" />					
+		</classes>		
+	</test>
+</suite>

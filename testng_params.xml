@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" parallel="tests" thread-count="2" >
+	<test name="Params Test FireFox" >	
+	<parameter name="platform" value="window" />
+	<parameter name="response" value="201,202" />
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="testngclass.TestParams" />
+		</classes>		
+	</test>	
+	<test name="Params Test Chrome" >
+	<parameter name="browser" value="chrome" />	
+	<parameter name="platform" value="window" />
+	<parameter name="response" value="201,202" />
+		<classes>
+			<class name="testngclass.TestParams" />
+		</classes>		
+	</test>	
+</suite>
