@@ -10,7 +10,7 @@ public class Log4JCustomTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	logTest.trace("Test custom Trace Mode");
+	logTest.trace("Test custom Trace Mode update");
 	logTest.info("Test custom Info Mode");
 	logTest.debug("Test custom Debug Mode");
 	logTest.error("Test custom Error mode");

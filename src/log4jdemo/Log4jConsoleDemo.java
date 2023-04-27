@@ -9,7 +9,7 @@ public class Log4jConsoleDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		logTest.trace("Test  Trace Mode");
+		logTest.trace("Test  Trace Mode update");
 		logTest.info("Test  Info Mode");
 		logTest.debug("Test  Debug Mode");
 		logTest.error("Test  Error mode");
